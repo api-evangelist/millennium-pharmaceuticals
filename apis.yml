@@ -1,8 +1,24 @@
 aid: millennium-pharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/millennium-pharmaceuticals.png
 name: Millennium Pharmaceuticals
-description: 'Millennium Pharmaceuticals is a company surfaced as a portfolio company of kleiner-perkins
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Millennium Pharmaceuticals was a biopharmaceutical company based in Cambridge, Massachusetts,
+  focused on oncology and inflammation, best known for developing the cancer drug Velcade (bortezomib).
+  Backed early by Kleiner Perkins, it was acquired by Takeda Pharmaceutical Company in 2008 for $8.8B and
+  its brand was retired to "Takeda Oncology" in 2013; it no longer operates as an independent company.
+  Surfaced in the API Evangelist network as a VC-portfolio stub. This is a research/company profile with
+  no independent developer API surface — the pipeline confirmed the provider publishes no public API,
+  developer portal, SDKs, or event/webhook surface.'
 url: https://raw.githubusercontent.com/api-evangelist/millennium-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Biopharmaceutical
+- Oncology
+- Pharmaceuticals
+- Life Sciences
 apis: []
+x-note: 'Defunct as an independent entity; acquired by Takeda (2008), rebranded Takeda Oncology (2013). No
+  first-party developer API surface exists to enrich.'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
